@@ -1,0 +1,18 @@
+.logo-header {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  height: 5.1rem;
+}
+
+.headerTitle {
+  font-weight: 900;
+  font-size: 2.6rem;
+  color: rgb(96, 152, 255);
+  letter-spacing: -0.35rem;
+}
+.headerTitle span {
+  font-weight: 400;
+  font-style: italic;
+}
