@@ -1,0 +1,11 @@
+ion-thumbnail {
+  --size: 24.5em;
+  margin-top: -3em;
+  margin-bottom: -6.5em;
+}
+
+img.verticalimage {
+  /* --size: 24.5em; */
+  width: 22.5em;
+  height: cover;
+}

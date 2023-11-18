@@ -1,32 +1,34 @@
-@font-face {
+/* @font-face {
   font-family: 'jptext';
-  src: url('/IPAMincho Regular.ttf'), format('truetype');
+  src: url('/Khiara.otf'), format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+  } */
 /* This sets a different background and item background in light mode on ios */
 .ios body { 
   --ion-color-primary: #ffffff;
   --ion-menue-background:#ffffff;
-  /* --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%); */
   --ion-background-color: none;
+  background-image: url('/myBgGrid.svg');
+  background-size: 4rem;
   --ion-toolbar-color:var(--ion-color-dark-contrast);
   --ion-toolbar-background: none ;
   --ion-tab-bar-background: none;
   --ion-tab-bar-border-color: none:
-  font-family: 'jptext';
+  /* font-family: 'jptext'; */
 } 
 /* This sets a different background and item background in light mode on md */
 .md body { 
   --ion-color-primary: #ffffff;
   --ion-menue-background:#ffffff;
-  /* --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%);  */
   --ion-background-color: none;
+  background-image: url('/myBgGrid.svg');
+  background-size: 4rem;
   --ion-toolbar-color:var(--ion-color-dark-contrast);
   --ion-toolbar-background: none ;
   --ion-tab-bar-background: none;
   --ion-tab-bar-border-color: none:
-  font-family: 'jptext';
+  /* font-family: 'jptext'; */
 }
   
 /* This is added for the flashing that happens when toggling between themes */
@@ -38,13 +40,14 @@ ion-item {
   /* Moji CSS */
   --ion-color-primary: #ffffff;
   --ion-background-color: none;
-  /* --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%); */
+  background-image: url('/myBgGrid.svg');
+  background-size: 4rem;
   --ion-menue-background:#ffffff;
   --ion-toolbar-color:var(--ion-color-dark-contrast);
   --ion-toolbar-background:none;
   --ion-tab-bar-background:#00a693;
   --ion-tab-bar-border-color: none:  
-  font-family: 'jptext';
+  /* font-family: 'jptext'; */
 
   /** primary **/
   --ion-color-primary: #ffffff;
@@ -158,6 +161,12 @@ ion-menu-button {
   /* border-radius: 10px; */
   /* border-width: 0.5px; */
 }
+ion-segment {
+  background-color: rgb(255, 227, 255);
+}
 * {
   font-family: 'jptext';
+}
+a {
+  text-decoration: none;
 }

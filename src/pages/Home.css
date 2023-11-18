@@ -1,9 +1,16 @@
 ion-card {
-    --background: #00000018;
-    --color: #ffffff;
+    --background: #00000028;
+    --color: #f3f3f3;
     margin-top: 2%;
     border-radius: 10px;
-
+    font-weight: 900;
+  }
+  
+.entext {
+    --background: #00000015;
+    --color: #efeded;
+    margin-top: 2%;
+    border-radius: 10px;
   }
   
   ion-card-title {

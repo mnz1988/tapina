@@ -16,15 +16,17 @@ const Home: React.FC = () => {
           <IonCol  size-xs="11" size-sm="11" size-md="6" size-lg="6" size-xl="5">
             <IonCol/>
             
-            <IonCard>
-              <IonCardHeader>
-                <IonCardTitle>タピナ 工房</IonCardTitle>
+            <IonCard >
+              <IonCardHeader color="gray">
+                <IonCardTitle><h1><strong>タピナ 工房</strong></h1></IonCardTitle>
                 {/* <IonCardSubtitle></IonCardSubtitle> */}
               </IonCardHeader>
-              <IonCardContent>
+              <IonCardContent><h1>
+                {/* <strong> */}
               タピナは、日常生活をデザイン、計画、構築するための建築スタジオです。
               ドア、窓、ファサード、照明、特別な備品、アクセサリーを設計します。
-              </IonCardContent>
+              {/* </strong> */}
+              </h1></IonCardContent>
             </IonCard>
         
           </IonCol>
@@ -32,18 +34,20 @@ const Home: React.FC = () => {
 
           <IonCol size-xs="11" size-sm="11" size-md="6" size-lg="6" size-xl="5">
 
-            <IonCard>
+            <IonCard className="entext">
             
               <IonCardHeader>
                 {/* <IonCardTitle>Why Invest with GORZ?</IonCardTitle> */}
-                <IonCardSubtitle>TaPina Studio</IonCardSubtitle>
+                <IonCardSubtitle><h1><strong>TaPina Studio</strong></h1></IonCardSubtitle>
               </IonCardHeader>
           
-              <IonCardContent>
+              <IonCardContent><h1>
+                {/* <strong> */}
                 Tapina is an architectural studio for designing, planning, and building your daily life.
                 <br />
                 We design doors, windows, facades, lighting, special supplies, and accessories.
-              </IonCardContent>
+                {/* </strong> */}
+                </h1></IonCardContent>
 
               {/* <IonCardHeader>
             
