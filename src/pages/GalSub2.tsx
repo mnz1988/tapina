@@ -1,7 +1,7 @@
 import { IonContent, IonPage, } from '@ionic/react'
 import ImageGallery from 'react-image-gallery'
 import 'react-image-gallery/styles/css/image-gallery.css'
-import MyHeader from './MyHeader'
+// import MyHeader from './MyHeader'
 import './GalSub.css'
 
 const images = [
@@ -81,7 +81,7 @@ const images = [
 const GalSub2: React.FC = () => {
   return (
     <IonPage>
-       <MyHeader/>
+       {/*<MyHeader/>*/}
        <IonContent className="ion-padding">
         
           <ImageGallery
