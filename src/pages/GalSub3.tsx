@@ -1,71 +1,64 @@
-import { IonContent, IonPage, IonGrid, IonRow, IonCol, IonThumbnail, } from '@ionic/react'
-
+import { IonContent, IonPage, } from '@ionic/react'
+import ImageGallery from 'react-image-gallery'
+import 'react-image-gallery/styles/css/image-gallery.css'
 import MyHeader from './MyHeader'
-// import MyLottieBG from './MyLottieBg'
-import './Home.css'
 import './GalSub.css'
 
-const About: React.FC = () => {
+const images = [
+  {
+    original: "/galsubimages/galsub3/1w.jpg",
+    originalAlt: "完全な建物設計 / Complete building design",
+    originalTitle: "完全な建物設計 / Complete building design",
+    description: "",
+    thumbnail: "/galsubimages/galsub3/1t.jpg",
+    thumbnailAlt: "完全な建物設計 / Complete building design / #1",
+    thumbnailTitle: "#1",
+    thumbnailLabel: "",
+  },
+  {
+    original: "/galsubimages/galsub3/2w.jpg",
+    originalAlt: "完全な建物設計 / Complete building design",
+    originalTitle: "完全な建物設計 / Complete building design",
+    description: "",
+    thumbnail: "/galsubimages/galsub3/2t.jpg",
+    thumbnailAlt: "完全な建物設計 / Complete building design / #2",
+    thumbnailTitle: "#2",
+    thumbnailLabel: "",
+  },
+  {
+    original: "/galsubimages/galsub3/3w.jpg",
+    originalAlt: "完全な建物設計 / Complete building design",
+    originalTitle: "完全な建物設計 / Complete building design",
+    description: "",
+    thumbnail: "/galsubimages/galsub3/3t.jpg",
+    thumbnailAlt: "完全な建物設計 / Complete building design / #3",
+    thumbnailTitle: "#3",
+    thumbnailLabel: "",
+  },
+]
+
+const GalSub3: React.FC = () => {
   return (
     <IonPage>
-      <MyHeader/>
-      <IonContent className="ion-padding">
-
-      <IonGrid >
-        <IonRow>
-
-          <IonThumbnail className="ion-padding">
-          <a href="/galsubimages/galsub3/1w.jpg" target='_blank' >
-            <img src='/galsubimages/galsub3/1t.jpg' />
-          </a>
-          </IonThumbnail>
+       <MyHeader/>
+       <IonContent className="ion-padding">
         
+          <ImageGallery
+            items={images}
+            showBullets={true}
+            showIndex={true} indexSeparator={' / '}
+            showNav={true}
+            useTranslate3D={false}
+            showPlayButton={true}
+            autoPlay={true}
+            slideDuration={450}
+            slideInterval={3000}
+          />
 
-          <IonThumbnail className="ion-padding">
-          <a href="/galsubimages/galsub3/2w.jpg" target='_blank' >
-            <img src='/galsubimages/galsub3/2t.jpg' />
-          </a>
-          </IonThumbnail>
-        
-
-          <IonThumbnail className="ion-padding">
-          <a href="/galsubimages/galsub3/3w.jpg" target='_blank' >
-            <img src='/galsubimages/galsub3/3t.jpg' />
-          </a>
-          </IonThumbnail>
-        
-
-          {/* <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3"> */}
-          {/* </IonCol> */}
-
-          {/* <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3"> */}
-            {/* <img src='/1.jpg' style={{border: '0.1px', borderRadius: '18px',}} /> */}
-          {/* </IonCol> */}
-
-          {/* <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3"> */}
-            {/* <img src='/1.jpg' style={{border: '0.1px', borderRadius: '18px',}} /> */}
-          {/* </IonCol> */}
-
-          {/* <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3"> */}
-            {/* <img src='/1.jpg' style={{border: '0.1px', borderRadius: '18px',}} /> */}
-          {/* </IonCol> */}
-
-          {/* // <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3"> */}
-            {/* <IonCard><a href='' ><img src='/1.jpg' /></a><IonCardHeader>
-                <IonCardTitle>Design title or category</IonCardTitle>
-                <IonCardSubtitle>description or subtitle</IonCardSubtitle></IonCardHeader>
-              </IonCard> */}
-              {/* </IonCol> */}
-
-        </IonRow>
-        
-
-      </IonGrid>
-
-      </IonContent>
+    </IonContent>
       
     </IonPage>
   );
 };
 
-export default About
+export default GalSub3
