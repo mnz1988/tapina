@@ -1,15 +1,13 @@
 import { IonContent, IonPage, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, } from '@ionic/react'
 
 import MyHeader from './MyHeader'
-import MyLottieBG from './MyLottieBg'
 import './Home.css'
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <MyHeader/>
-      <IonContent fullscreen className="ion-padding">
-      {/* <MyLottieBG/> */}
+      <IonContent className="ion-padding">
 
       <IonGrid >
         <IonRow>
