@@ -1,8 +1,8 @@
-import { IonContent, IonPage, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonTitle, IonList, IonItem, IonLabel, } from '@ionic/react'
+import { IonContent, IonPage, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonTitle, IonItem, IonLabel, } from '@ionic/react'
 
 import MyHeader from './MyHeader'
 import './Home.css'
-import { colorPaletteOutline, cubeOutline, logoAndroid, logoBitcoin, logoCodepen, logoCss3, logoDribbble, logoFigma, logoFirebase, logoGithub, logoHtml5, logoInstagram, logoIonic, logoJavascript, logoNpm, logoPlaystation, logoPwa, logoPython, logoReact, logoSass, logoSlack, logoSteam, logoVercel, logoWebComponent, logoWhatsapp, logoWordpress, logoXbox, paperPlaneOutline, pencilOutline, prismOutline, videocamOutline, walkOutline } from 'ionicons/icons';
+import { colorPaletteOutline, cubeOutline, logoBitcoin, logoCodepen, logoCss3, logoFigma, logoFirebase, logoGithub, logoHtml5, logoInstagram, logoIonic, logoJavascript, logoNpm, logoPlaystation, logoPwa, logoPython, logoReact, logoSass, logoSlack, logoSteam, logoVercel, logoWebComponent, logoWhatsapp, logoWordpress, logoXbox, mailOpenOutline, paperPlaneOutline, pencilOutline, prismOutline, videocamOutline, walkOutline } from 'ionicons/icons';
 
 const About: React.FC = () => {
   return (
@@ -14,22 +14,43 @@ const About: React.FC = () => {
       <IonGrid >
 
         <IonRow>
-          <IonCol size-xs="0" size-sm="0" size-md="3" size-lg="4" size-xl="4"/>
-          <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="4">
+          <IonCol size-xs="0" size-sm="0" size-md="2" size-lg="2" size-xl="3"/>
+          <IonCol size-xs="12" size-sm="12" size-md="8" size-lg="8" size-xl="6">
+            <IonCard>
+              <IonCardHeader>
+                <IonCardTitle><h1><strong>Zara M.Tamanani</strong></h1></IonCardTitle>
+                {/* <IonCardSubtitle><strong>About</strong></IonCardSubtitle> */}
+              </IonCardHeader>
+                <IonCardContent color="light">In the scientific and artistic realm of Tehran, where dreams intertwine with reality, Zara M. Tamnani emerges as an architect, her soul intertwined with the essence of landscape design. She traversed the halls of Tehran University, delving into the fields of knowledge.</IonCardContent>
+                <IonCardContent color="light">Her pursuit of creativity led her into the realm of graphic design, where she embraced the dance of lines and colors with the grace of a seasoned artist. Within the Technical and Vocational College for girls, she served as a teacher for two decades, enlightening the minds of young girls with the light of knowledge and inspiration.</IonCardContent>
+                <IonCardContent color="light">In her teachings, she cultivated not only the mind but also the soul.</IonCardContent>
+                <IonCardContent color="light">2003 - 2020</IonCardContent>
+                <IonCardContent color="light">In the realm of architectural design, I have served as the Managing Director of Pina Design Studio for fifteen years. With a degree in architecture, specialising in landscape architecture from the University of Tehran, I have brought visions to tangible realities through my designs.</IonCardContent>
+                <IonCardContent color="light">Beyond the confines, I have curated around twenty oil and watercolour painting exhibitions, both individually and collectively, across Iran over a span of twenty-four years. Sometimes my inclination veers towards storytelling beyond architecture. Over the past fifteen years, I have utilised my artistic talents to illustrate children's storybooks and embellish posters for Iranian festivals, including Nowruz.</IonCardContent>
+                <IonCardContent color="light">Proficient in a suite of software tools including AutoCAD MEP, Autodesk Revit Architecture, and Adobe Illustrator, I seamlessly integrate innovation and precision into every project. Feel free to contact me:</IonCardContent>
+              </IonCard></IonCol>
+          <IonCol size-xs="0" size-sm="0" size-md="2" size-lg="2" size-xl="3"/>
+        </IonRow>
+
+        <IonRow>
+          <IonCol size-xs="0" size-sm="0" size-md="3" size-lg="4" size-xl="4.5"/>
+          <IonCol size-xs="12" size-sm="12" size-md="6" size-lg="4" size-xl="3">
             <IonCard>
               <IonCardHeader>
                 <IonCardTitle><h1><strong>連絡</strong></h1></IonCardTitle>
-                <IonCardSubtitle><strong>Contant US</strong></IonCardSubtitle>
+                {/* <IonCardSubtitle><strong>Contant US</strong></IonCardSubtitle> */}
                 </IonCardHeader>
                
-              <IonCardContent><IonTitle><a href='https://instagram.com/tapinadesign'><IonIcon icon={logoInstagram}/> Follow us on Instagram</a></IonTitle></IonCardContent>
-               
-              <IonCardContent><IonTitle><a href='#'><IonIcon icon={logoWhatsapp}/> Contact us using WhatsApp</a></IonTitle></IonCardContent>
-               
-              <IonCardContent><IonTitle><a href='#'><IonIcon icon={paperPlaneOutline}/> Contact us using Telegram</a></IonTitle></IonCardContent>
+                  <IonCardContent>
+                    <IonTitle><a href='https://instagram.com/tapinadesign' target='blank'><IonIcon icon={logoInstagram}/> Follow & DM on Instagram</a></IonTitle>
+                    <IonTitle><a href='mailto:zarnadesign@gmail.com'><IonIcon icon={mailOpenOutline}/> Send E-Mail</a></IonTitle>
+                    <IonTitle><a href='https://t.me/Zarnadesign' target='blank'><IonIcon icon={paperPlaneOutline}/> DM on Telegram</a></IonTitle>
+                    <IonTitle><IonIcon icon={mailOpenOutline}/> Call: 08025801828</IonTitle>
+                    {/* <IonTitle><a href='#'><IonIcon icon={logoWhatsapp}/> Contact us using WhatsApp</a></IonTitle> */}
+                  </IonCardContent>
 
               </IonCard></IonCol>
-          <IonCol size-xs="0" size-sm="0" size-md="3" size-lg="4" size-xl="4"/>
+          <IonCol size-xs="0" size-sm="0" size-md="3" size-lg="4" size-xl="4.5"/>
         </IonRow>
 
         <IonRow>
