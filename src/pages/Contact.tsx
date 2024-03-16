@@ -21,14 +21,14 @@ const About: React.FC = () => {
                 <IonCardTitle><h1><strong>Zara M.Tamanani</strong></h1></IonCardTitle>
                 {/* <IonCardSubtitle><strong>About</strong></IonCardSubtitle> */}
               </IonCardHeader>
-                <IonCardContent color="light">In the scientific and artistic realm of Tehran, where dreams intertwine with reality, Zara M. Tamnani emerges as an architect, her soul intertwined with the essence of landscape design. She traversed the halls of Tehran University, delving into the fields of knowledge.</IonCardContent>
-                <IonCardContent color="light">Her pursuit of creativity led her into the realm of graphic design, where she embraced the dance of lines and colors with the grace of a seasoned artist. Within the Technical and Vocational College for girls, she served as a teacher for two decades, enlightening the minds of young girls with the light of knowledge and inspiration.</IonCardContent>
-                <IonCardContent color="light">In her teachings, she cultivated not only the mind but also the soul.</IonCardContent>
+                <IonCardContent color="light"><h2>In the scientific and artistic realm of Tehran, where dreams intertwine with reality, Zara M. Tamnani emerges as an architect, her soul intertwined with the essence of landscape design. She traversed the halls of Tehran University, delving into the fields of knowledge.</h2></IonCardContent>
+                <IonCardContent color="light"><h2>Her pursuit of creativity led her into the realm of graphic design, where she embraced the dance of lines and colors with the grace of a seasoned artist. Within the Technical and Vocational College for girls, she served as a teacher for two decades, enlightening the minds of young girls with the light of knowledge and inspiration.</h2></IonCardContent>
+                <IonCardContent color="light"><h2>In her teachings, she cultivated not only the mind but also the soul.</h2></IonCardContent>
                 <IonCardContent color="light">2003 - 2020</IonCardContent>
-                <IonCardContent color="light">In the realm of architectural design, I have served as the Managing Director of Pina Design Studio for fifteen years. With a degree in architecture, specialising in landscape architecture from the University of Tehran, I have brought visions to tangible realities through my designs.</IonCardContent>
-                <IonCardContent color="light">Beyond the confines, I have curated around twenty oil and watercolour painting exhibitions, both individually and collectively, across Iran over a span of twenty-four years. Sometimes my inclination veers towards storytelling beyond architecture. Over the past fifteen years, I have utilised my artistic talents to illustrate children's storybooks and embellish posters for Iranian festivals, including Nowruz.</IonCardContent>
-                <IonCardContent color="light">Proficient in a suite of software tools including AutoCAD MEP, Autodesk Revit Architecture, and Adobe Illustrator, I seamlessly integrate innovation and precision into every project. Feel free to contact me:</IonCardContent>
-              </IonCard></IonCol>
+                <IonCardContent color="light"><h2>In the realm of architectural design, I have served as the Managing Director of Pina Design Studio for fifteen years. With a degree in architecture, specialising in landscape architecture from the University of Tehran, I have brought visions to tangible realities through my designs.</h2></IonCardContent>
+                <IonCardContent color="light"><h2>Beyond the confines, I have curated around twenty oil and watercolour painting exhibitions, both individually and collectively, across Iran over a span of twenty-four years. Sometimes my inclination veers towards storytelling beyond architecture. Over the past fifteen years, I have utilised my artistic talents to illustrate children's storybooks and embellish posters for Iranian festivals, including Nowruz.</h2></IonCardContent>
+                <IonCardContent color="light"><h2>Proficient in a suite of software tools including AutoCAD MEP, Autodesk Revit Architecture, and Adobe Illustrator, I seamlessly integrate innovation and precision into every project. Feel free to contact me:</h2></IonCardContent>
+                </IonCard></IonCol>
           <IonCol size-xs="0" size-sm="0" size-md="2" size-lg="2" size-xl="3"/>
         </IonRow>
 
@@ -63,7 +63,7 @@ const About: React.FC = () => {
               </IonCardHeader>
 
                 {/* <IonList> */}
-                  <IonItem><IonLabel  color="light">2D Software & Art:<p />
+                  <IonItem><IonLabel color="light">2D Software & Art:<p />
 
                       <IonIcon icon={colorPaletteOutline}/> Inkscape, Adobe Illustrator, Photoshop, InDesign, Acrobat <br />
                       <IonIcon icon={pencilOutline}/> Indestrial Design, Prorotping, Concept Designing, Skeching and Drawing <br/>
